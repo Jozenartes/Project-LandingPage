@@ -1,27 +1,47 @@
+ /*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }*/
+
 body{
     font-family: 'roboto', sans-serif;
     display:flex;
     flex-direction: column;
     height: 100vh;
     /*align-items: center;*/
-
+    padding: 0;
+    margin:0;
 }
-.section{
+
+h1{
+    font-size:24px;
+    color: #f9faf8;
+}
+
+header{
     width: 900px;
-    justify-content: center;
     margin: 0 auto;
+}
+
+.section{
+    width: auto;
+    max-width: auto;
+    justify-content: center;
+    background: #1f2937;
 }
 
 .here{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
-.top{
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    margin-bottom: 30px;
 }
 
 ul{
@@ -31,10 +51,22 @@ ul{
     padding: 0;
     list-style: none;
 }
+/*This website is awsome*/
+.Hero{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+button{
+    max-width: 60px;
+}
 
 .section1{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
 }
 
 img{
