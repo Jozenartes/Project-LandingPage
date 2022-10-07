@@ -100,6 +100,7 @@ img{
     color: #3882f6;
 }
 
+/*to edit random info*/
 #rndm{
     margin: 0 auto;
     font-size: 36px;
@@ -109,15 +110,16 @@ img{
     margin-bottom: 15px;
 }
 
+/*blue box, that maybe I'll put an image*/
 .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 40px;
 }
 
 .smalltext{
     width:200px;
+    margin: 5px;
 }
