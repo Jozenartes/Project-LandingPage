@@ -133,12 +133,14 @@ img{
 .quote1{
     width: fit-content;
     margin: 0 auto;
+    padding: 50px;
 }
 
 #quote{
     max-width:800px;
     font-size: 36px;
     font-style: italic;
+   /*font-weight: 700;*/
 }
 
 #thor{
