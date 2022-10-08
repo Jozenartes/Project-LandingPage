@@ -62,7 +62,7 @@ ul{
 .Hero,#toptext{
     color: white;
 }
-button{
+.button{
     border-style: none;
     border-radius: 5px;
     height: 25px;
@@ -164,13 +164,17 @@ img{
     align-items: end;
     justify-content: flex-start;
     padding: 30px;
+    gap: 100px;
 }
 
 .text{
     color: white;
-
+    
 }
 
 #p{
     margin: 0;
+    font-size: 25px;
+    font-weight: bold;
 }
+
