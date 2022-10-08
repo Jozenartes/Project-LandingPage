@@ -149,14 +149,17 @@ img{
     font-weight: bolder;
 }
 
+.container4{
+    margin: 0 auto;
+}
+
 .box-container{
     background: #3882f6;
     width: 800px;
-    height:  700px;
+    height: fit-content;
     display: flex;
-    justify-content: center;
-    margin: 50px;
     border-radius: 10px;
+    margin: 50px;
 }
 
 .contain-text{
@@ -178,3 +181,13 @@ img{
     font-weight: bold;
 }
 
+.button.bottom{
+    border: solid 2px white;
+    background: transparent;
+    height: 40px;
+    width: 160px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
