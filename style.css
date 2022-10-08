@@ -66,7 +66,7 @@ ul{
     border-style: none;
     border-radius: 5px;
     height: 25px;
-    max-width: 80px;
+    width: 80px;
     background: rgb(100, 100, 250);
     color: white;
     font-weight: bold;
@@ -181,19 +181,17 @@ img{
     font-weight: bold;
 }
 
+
 .button.bottom{
     border: solid 2px white;
     background: transparent;
-    height: 7px;
-    width: 80px;
+    height: 20px;
+    width: 150px; /*here*/
+    border-radius: 12px;
     padding: 20px;
-    font-size: 15px;
+    font-size: 18px;
     justify-content: center;
     align-items: center;
     display: flex;
     
-}
-
-span{
-
 }
