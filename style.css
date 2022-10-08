@@ -166,7 +166,7 @@ img{
     display: flex;
     align-items: end;
     justify-content: flex-start;
-    padding: 30px;
+    padding: 50px;
     gap: 100px;
 }
 
@@ -185,9 +185,13 @@ img{
     border: solid 2px white;
     background: transparent;
     height: 40px;
-    width: 160px;
+    max-width: 100px;
     font-size: 15px;
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+span{
+    padding: 10px;
 }
