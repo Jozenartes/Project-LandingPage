@@ -186,10 +186,10 @@ img{
     border: solid 2px white;
     background: transparent;
     height: 20px;
-    width: 150px; /*here*/
+    /*width: 150px;
     border-radius: 12px;
     padding: 20px;
-    font-size: 18px;
+    font-size: 18px;*/
     justify-content: center;
     align-items: center;
     display: flex;
