@@ -158,7 +158,7 @@ img{
     width: 1000px;
     height: 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
     border-radius: 10px;
     margin: 50px;
@@ -167,8 +167,8 @@ img{
 .contain-text{
     display: flex;
     align-items: end;
-    justify-content: space-around;
-    gap:20px;
+    justify-content: space-between;
+    
 }
 
 .text{
@@ -181,13 +181,16 @@ img{
     font-weight: bold;
 }
 
-
+/*Not being able to bring down the button*/
 .button.bottom{
+    margin-top: 19px;
     border: solid 2px white;
-    background: transparent;
-    /*height: 20px;
-    width: 150px;
-    border-radius: 12px;
-    padding: 20px;
-    font-size: 18px;*/    
+    background: transparent; 
+}
+
+footer{
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
